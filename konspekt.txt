@@ -1,0 +1,33 @@
+				Konspekt!
+
+Pseudo-klasses elementlari haqida.
+Pseudo-klass elementning maxsus holatini aniqlash uchun ishlatiladi.
+Masalan, u quyidagilar uchun ishlatilishi mumkin:
+
+Foydalanuvchi sichqonchani bosganda, elementga uslub bering
+Uslub tashrif buyurilgan va tashrif buyurilmagan havolalar boshqacha bolishi ham mumukin.
+Element diqqat markazida bo'lganda unga uslub beriladi.
+Pseudo-classesda ishlatilishi mumkin bolgan elementlar:
+   masalan frist-child, last-child, nth-child,nth-child, even, odd, not, disabled, enabled kabi elementlar qollaniladi.
+	
+Pseudo-elementlari haqida.
+CSS da psevdoelementi elementning belgilangan qismlarini uslublash uchun ishlatiladi. Masalan elementning birinchi harfi yoki satriga uslub beriladi.
+Va Tarkibni element tarkibidan oldin yoki keyin kiritiladi.
+ Bunda ishlatilishi mumkun bolgan elementlar:
+::before-elementi tarkibidan oldin bazi tarkibni kiritish uchun ishlatiladi.
+::after-elementi tarkibidan keyin bazi tarkiblarni kiritish uchun ishlatiladi. 
+bundan tashqari yana bazi elementlar ham mavjud.
+bular ::selction, ::marker kabi elementlar ham qollaniladi.
+
+ Transform 2D haqida.
+css da elementlarni siljitish, aylantirish, masshtablash va qiyshayishlarni imkonini beradi. masalan Transformda ishlatilishi mumin bolgan elementlar
+translate(), rotate(), scaleX(), scaleY(), scale(), skewX(),skewY(),skew()
+matrix()shu elementlar orqali harakatlantish mumkin.
+
+3D transform ham turli harakatlarni keltirsa boladi.
+misol uchu ishlatiladi mana shu elementlar rotateX(), rotateY(), rotateZ().
+
+Animatsion haqida .
+animatsiyada nima qilish mumkin turli hil elementlarin harakatlantirish effekt berish yana textlarga ham effect berib animatsiya holatiha kelitish mumkin.
+
+    

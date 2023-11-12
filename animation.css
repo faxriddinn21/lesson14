@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #313131;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.animation-foto{
+    width: 800px;
+    height: 400px;
+    background: url(./images/car\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
+
+/* .nimation-foto:hover{
+    transform: rotateY('');
+} */
+
+@keyframes slide{
+    25%{
+        background: url(./images/car\ \(2\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+    }
+    50%{
+        background: url(./images/car\ \(3\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+    }
+    75%{
+        background: url(./images/car\ \(4\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+    }
+    100%{
+        background: url(./images/car\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+    }
+}
+
+.text-animation{
+    text-align: center;
+    position: relative;
+    bottom: 58px; 
+     box-shadow: 0 5px 0 #15f4ee inset, 0 5px 0 #15f4ee,
+                0 5px 0 #15f4ee inset, 0 5px 0 #15f4ee;
+                    
+}
+.text{
+    color: white;
+    font-size: 5em;
+    transform: rotateY(-40%);
+    width: 100%;
+    
+}
+.text span{
+    display: inline-block;
+    animation: car 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes car{
+    0%{
+        transform: rotateY(90deg);
+         filter: blur(10px); 
+        opacity: o; 
+    }
+    100%{
+        transform: rotateY(0deg);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.text span:nth-child(1){
+    animation-delay: 1s;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+.text span:nth-child(2){
+    animation-delay: 1.25s;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+.text span:nth-child(3){
+    animation-delay: 1.5s;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+.text span:nth-child(5){
+    animation-delay: 1.75s;
+    text-shadow: 0 0 5px #f415bc, 0 0 5px #f415bc;
+}
+.text span:nth-child(6){
+    animation-delay: 2s;
+    text-shadow: 0 0 5px #f415bc, 0 0 5px #f415bc;
+}
+.text span:nth-child(7){
+    animation-delay: 2.5s;
+    text-shadow: 0 0 5px #f415bc, 0 0 5px #f415bc;
+}
+.text span:nth-child(8){
+    animation-delay: 3s;
+    text-shadow: 0 0 5px #f415bc, 0 0 5px #f415bc;
+}
+.text span:nth-child(10){
+    animation-delay: 3.5s;
+    text-shadow: 0 0 5px #67f415, 0 0 5px #67f415;
+}
+.text span:nth-child(11){
+    animation-delay: 4s;
+    text-shadow: 0 0 5px #67f415, 0 0 5px #67f415;
+}
+.text span:nth-child(12){
+    animation-delay: 4.5s;
+    text-shadow: 0 0 5px #67f415, 0 0 5px #67f415;
+}
